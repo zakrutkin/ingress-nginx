@@ -7,7 +7,7 @@ on:
     - cron: '20 11 * * 5'
   push:
     branches:
-      - "main"
+      - "tmp"
 
 # Declare default permissions as read only.
 permissions: read-all

@@ -3,7 +3,7 @@ name: Chart
 on:
   push:
     branches:
-      - main
+      - tmp 
       - release-*
     paths:
       - charts/ingress-nginx/Chart.yaml
